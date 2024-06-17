@@ -3,9 +3,7 @@
 #
 # Version 1
 #
-# The starting point for CW2.
-#
-# Intended to work with the PacMan AI projects from:
+# MDP Agent is intended to work with the PacMan AI projects from:
 #
 # http://ai.berkeley.edu/
 #
@@ -32,17 +30,6 @@ from pacman import Directions
 from game import Agent
 import api
 import random
-
-""" 
-AIN Pacman Coursework
-Katherine Poole 
-1/12/2023
-k23074532
-
-I'm sorry my pacman doesn't win a lot consistently. I think he's at least having fun eating food and making ghost friends. 
-I am a newer python programmer and I spent a lot of time on this coursework -- I tried my best :)  
-Learned a lot while doing it though!
-"""
 
 # Set reward values and constants
 food_reward = 12 #20 
